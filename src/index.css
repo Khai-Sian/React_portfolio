@@ -63,7 +63,7 @@
 }
 
 @layer base{
-   :root {
+   /* :root {
     --background: 210 40% 98%;
     --foreground: 222 47% 11%;
 
@@ -85,6 +85,31 @@
     --primary-foreground: 213 31% 91%;
 
     --border: 217 33% 20%;
+  } */
+
+  :root {
+    /* Light Theme - Sophisticated Neutrals & Muted Gold Accent */
+    --background: 40, 25%, 97%;
+    --foreground: 240, 10%, 25%;
+    --card: 0, 0%, 100%;
+
+    --primary: 35, 60%, 50%;
+    --primary-foreground: 35, 20%, 15%;
+
+    --border: 40, 15%, 88%;
+  }
+
+  .dark {
+    /* Dark Theme - Deep Charcoal & Muted Gold Accent */
+    --background: 240, 12%, 12%;
+    --foreground: 40, 20%, 88%;
+
+    --card: 240, 10%, 18%;
+
+    --primary: 35, 65%, 60%;
+    --primary-foreground: 35, 25%, 10%;
+
+    --border: 240, 8%, 28%;
   }
 
   * {
