@@ -1,0 +1,21 @@
+<svg width="120" height="100" viewBox="0 0 120 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .ks-text-shared {
+        font-family: 'Montserrat', 'Segoe UI', Roboto, sans-serif; /* Clean, modern sans-serif */
+        font-weight: 700; /* Bold */
+        font-size: 70px;
+        fill: #CC8833;
+      }
+    </style>
+  </defs>
+
+  <text x="10" y="75" class="ks-text-shared">K</text>
+  <text x="55" y="75" class="ks-text-shared">S</text>
+
+  <!-- Shared baseline element -->
+  <rect x="10" y="80" width="90" height="6" fill="#CC8833" rx="2"/>
+
+  <!-- Uncomment to see a bounding box for alignment reference -->
+  <!-- <rect x="0" y="0" width="120" height="100" fill="none" stroke="lightgray" stroke-width="1"/> -->
+</svg>
